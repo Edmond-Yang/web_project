@@ -231,7 +231,7 @@
 			})
 		}
 	// setTimeout(save_html, 1000);
-	// setInterval(save_html, 60000);
+	setInterval(save_html, 5000);
   window.onbeforeunload = function() {
     save_html();
   };
